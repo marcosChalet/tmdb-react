@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react"
 import Main from "../template/Main"
 
-import "./index.css"
-
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
 
